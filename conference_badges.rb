@@ -16,7 +16,7 @@ end
 
 def printer(badges)
   badges.collect.each_with_index do |name,index|
-    puts badge_maker(name)
-    puts assign_rooms(index + 1)
+  badge_maker(name)
+  assign_rooms(index + 1)
   end
 end
