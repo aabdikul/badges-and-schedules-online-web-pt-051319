@@ -14,9 +14,10 @@ def assign_rooms(speakers)
   end
 end
 
-def printer(badges)
-  badges.collect.each_with_index do |name,index|
-  badge_maker(name)
-  assign_rooms(index + 1)
+def printer(attendees)
+  attendees.collect.each_with_index do |name,index|
+    badge_maker(name)
+    assign_rooms(index + 1)
   end
+printer(attendees)
 end
