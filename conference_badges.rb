@@ -15,10 +15,8 @@ def assign_rooms(speakers)
 end
 
 def printer(badges)
-  counter = 1
   badges.collect do |name|
     puts badge_maker(name)
-    puts assign_rooms(counter)
-    counter += 1
+    puts assign_rooms(index + 1)
   end
 end
