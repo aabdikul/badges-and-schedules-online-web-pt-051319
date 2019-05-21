@@ -19,5 +19,4 @@ def printer(attendees)
     badge_maker(name)
     assign_rooms(index + 1)
   end
-printer(attendees)
 end
