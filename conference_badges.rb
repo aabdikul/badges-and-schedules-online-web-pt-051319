@@ -3,5 +3,5 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(name)
-  attendees.each { |name| puts "Hello, my name is #{name}".}
+  attendees.each { |attendees| puts "Hello, my name is #{name}".}
 end
